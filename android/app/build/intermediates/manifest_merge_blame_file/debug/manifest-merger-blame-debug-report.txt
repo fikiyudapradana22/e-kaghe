@@ -1,0 +1,235 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ekaghe"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\TUGAS KULIAH\aplikasi asrama\ekaghe\android\app\src\main\AndroidManifest.xml:3:5-67
+11-->E:\TUGAS KULIAH\aplikasi asrama\ekaghe\android\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->E:\TUGAS KULIAH\aplikasi asrama\ekaghe\android\app\src\main\AndroidManifest.xml:4:5-65
+12-->E:\TUGAS KULIAH\aplikasi asrama\ekaghe\android\app\src\main\AndroidManifest.xml:4:22-62
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->E:\TUGAS KULIAH\aplikasi asrama\ekaghe\android\app\src\main\AndroidManifest.xml:3:5-67
+13-->E:\TUGAS KULIAH\aplikasi asrama\ekaghe\android\app\src\main\AndroidManifest.xml:3:22-64
+14
+15    <uses-feature
+15-->[:react-native-camera] E:\TUGAS KULIAH\aplikasi asrama\ekaghe\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalDebug\AndroidManifest.xml:9:5-11:36
+16        android:name="android.hardware.camera"
+16-->[:react-native-camera] E:\TUGAS KULIAH\aplikasi asrama\ekaghe\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalDebug\AndroidManifest.xml:10:9-47
+17        android:required="false" />
+17-->[:react-native-camera] E:\TUGAS KULIAH\aplikasi asrama\ekaghe\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalDebug\AndroidManifest.xml:11:9-33
+18    <uses-feature
+18-->[:react-native-camera] E:\TUGAS KULIAH\aplikasi asrama\ekaghe\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalDebug\AndroidManifest.xml:12:5-14:36
+19        android:name="android.hardware.camera.autofocus"
+19-->[:react-native-camera] E:\TUGAS KULIAH\aplikasi asrama\ekaghe\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalDebug\AndroidManifest.xml:13:9-57
+20        android:required="false" />
+20-->[:react-native-camera] E:\TUGAS KULIAH\aplikasi asrama\ekaghe\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalDebug\AndroidManifest.xml:14:9-33
+21    <!--
+22    This manifest file is used only by Gradle to configure debug-only capabilities
+23    for React Native Apps.
+24    -->
+25    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+25-->[com.facebook.react:react-android:0.74.3] C:\Users\fikiy\.gradle\caches\transforms-3\860f97396f7d9ca5da4a6da4443fcf89\transformed\jetified-react-android-0.74.3-debug\AndroidManifest.xml:16:5-78
+25-->[com.facebook.react:react-android:0.74.3] C:\Users\fikiy\.gradle\caches\transforms-3\860f97396f7d9ca5da4a6da4443fcf89\transformed\jetified-react-android-0.74.3-debug\AndroidManifest.xml:16:22-75
+26
+27    <permission
+27-->[androidx.core:core:1.9.0] C:\Users\fikiy\.gradle\caches\transforms-3\20659cc2aec239f9ffb2b17afc659775\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+28        android:name="com.ekaghe.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+28-->[androidx.core:core:1.9.0] C:\Users\fikiy\.gradle\caches\transforms-3\20659cc2aec239f9ffb2b17afc659775\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+29        android:protectionLevel="signature" />
+29-->[androidx.core:core:1.9.0] C:\Users\fikiy\.gradle\caches\transforms-3\20659cc2aec239f9ffb2b17afc659775\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+30
+31    <uses-permission android:name="com.ekaghe.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+31-->[androidx.core:core:1.9.0] C:\Users\fikiy\.gradle\caches\transforms-3\20659cc2aec239f9ffb2b17afc659775\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+31-->[androidx.core:core:1.9.0] C:\Users\fikiy\.gradle\caches\transforms-3\20659cc2aec239f9ffb2b17afc659775\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+32    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+33    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+33-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\fikiy\.gradle\caches\transforms-3\2ebfc4ab3bcf16c181baddfb1fc07817\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+33-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\fikiy\.gradle\caches\transforms-3\2ebfc4ab3bcf16c181baddfb1fc07817\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:22-76
+34
+35    <application
+35-->E:\TUGAS KULIAH\aplikasi asrama\ekaghe\android\app\src\main\AndroidManifest.xml:7:5-26:19
+36        android:name="com.ekaghe.MainApplication"
+36-->E:\TUGAS KULIAH\aplikasi asrama\ekaghe\android\app\src\main\AndroidManifest.xml:8:7-38
+37        android:allowBackup="false"
+37-->E:\TUGAS KULIAH\aplikasi asrama\ekaghe\android\app\src\main\AndroidManifest.xml:12:7-34
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.9.0] C:\Users\fikiy\.gradle\caches\transforms-3\20659cc2aec239f9ffb2b17afc659775\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+39        android:debuggable="true"
+40        android:extractNativeLibs="false"
+41        android:icon="@mipmap/ic_launcher"
+41-->E:\TUGAS KULIAH\aplikasi asrama\ekaghe\android\app\src\main\AndroidManifest.xml:10:7-41
+42        android:label="@string/app_name"
+42-->E:\TUGAS KULIAH\aplikasi asrama\ekaghe\android\app\src\main\AndroidManifest.xml:9:7-39
+43        android:roundIcon="@mipmap/ic_launcher_round"
+43-->E:\TUGAS KULIAH\aplikasi asrama\ekaghe\android\app\src\main\AndroidManifest.xml:11:7-52
+44        android:theme="@style/AppTheme"
+44-->E:\TUGAS KULIAH\aplikasi asrama\ekaghe\android\app\src\main\AndroidManifest.xml:13:7-38
+45        android:usesCleartextTraffic="true" >
+45-->E:\TUGAS KULIAH\aplikasi asrama\ekaghe\android\app\src\debug\AndroidManifest.xml:6:9-44
+46        <activity
+46-->E:\TUGAS KULIAH\aplikasi asrama\ekaghe\android\app\src\main\AndroidManifest.xml:14:7-25:18
+47            android:name="com.ekaghe.MainActivity"
+47-->E:\TUGAS KULIAH\aplikasi asrama\ekaghe\android\app\src\main\AndroidManifest.xml:15:9-37
+48            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+48-->E:\TUGAS KULIAH\aplikasi asrama\ekaghe\android\app\src\main\AndroidManifest.xml:17:9-118
+49            android:exported="true"
+49-->E:\TUGAS KULIAH\aplikasi asrama\ekaghe\android\app\src\main\AndroidManifest.xml:20:9-32
+50            android:label="@string/app_name"
+50-->E:\TUGAS KULIAH\aplikasi asrama\ekaghe\android\app\src\main\AndroidManifest.xml:16:9-41
+51            android:launchMode="singleTask"
+51-->E:\TUGAS KULIAH\aplikasi asrama\ekaghe\android\app\src\main\AndroidManifest.xml:18:9-40
+52            android:windowSoftInputMode="adjustResize" >
+52-->E:\TUGAS KULIAH\aplikasi asrama\ekaghe\android\app\src\main\AndroidManifest.xml:19:9-51
+53            <intent-filter>
+53-->E:\TUGAS KULIAH\aplikasi asrama\ekaghe\android\app\src\main\AndroidManifest.xml:21:9-24:25
+54                <action android:name="android.intent.action.MAIN" />
+54-->E:\TUGAS KULIAH\aplikasi asrama\ekaghe\android\app\src\main\AndroidManifest.xml:22:13-65
+54-->E:\TUGAS KULIAH\aplikasi asrama\ekaghe\android\app\src\main\AndroidManifest.xml:22:21-62
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->E:\TUGAS KULIAH\aplikasi asrama\ekaghe\android\app\src\main\AndroidManifest.xml:23:13-73
+56-->E:\TUGAS KULIAH\aplikasi asrama\ekaghe\android\app\src\main\AndroidManifest.xml:23:23-70
+57            </intent-filter>
+58        </activity>
+59        <activity
+59-->[com.facebook.react:react-android:0.74.3] C:\Users\fikiy\.gradle\caches\transforms-3\860f97396f7d9ca5da4a6da4443fcf89\transformed\jetified-react-android-0.74.3-debug\AndroidManifest.xml:19:9-21:40
+60            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+60-->[com.facebook.react:react-android:0.74.3] C:\Users\fikiy\.gradle\caches\transforms-3\860f97396f7d9ca5da4a6da4443fcf89\transformed\jetified-react-android-0.74.3-debug\AndroidManifest.xml:20:13-77
+61            android:exported="false" />
+61-->[com.facebook.react:react-android:0.74.3] C:\Users\fikiy\.gradle\caches\transforms-3\860f97396f7d9ca5da4a6da4443fcf89\transformed\jetified-react-android-0.74.3-debug\AndroidManifest.xml:21:13-37
+62
+63        <service
+63-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\fikiy\.gradle\caches\transforms-3\b6465fb6c26f72c01fa4ac06a9fb289b\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:9:9-15:19
+64            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+64-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\fikiy\.gradle\caches\transforms-3\b6465fb6c26f72c01fa4ac06a9fb289b\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:10:13-91
+65            android:directBootAware="true"
+65-->[com.google.mlkit:common:17.2.0] C:\Users\fikiy\.gradle\caches\transforms-3\e5c87e164e19f9e0e1ceb7cacff90644\transformed\jetified-common-17.2.0\AndroidManifest.xml:17:13-43
+66            android:exported="false" >
+66-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\fikiy\.gradle\caches\transforms-3\b6465fb6c26f72c01fa4ac06a9fb289b\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:11:13-37
+67            <meta-data
+67-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\fikiy\.gradle\caches\transforms-3\b6465fb6c26f72c01fa4ac06a9fb289b\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:12:13-14:85
+68                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+68-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\fikiy\.gradle\caches\transforms-3\b6465fb6c26f72c01fa4ac06a9fb289b\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:13:17-120
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\fikiy\.gradle\caches\transforms-3\b6465fb6c26f72c01fa4ac06a9fb289b\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:14:17-82
+70            <meta-data
+70-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\fikiy\.gradle\caches\transforms-3\9f29fb93ebb3d6fa024368e8a0ebd6bb\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:12:13-14:85
+71                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+71-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\fikiy\.gradle\caches\transforms-3\9f29fb93ebb3d6fa024368e8a0ebd6bb\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:13:17-114
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\fikiy\.gradle\caches\transforms-3\9f29fb93ebb3d6fa024368e8a0ebd6bb\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:14:17-82
+73            <meta-data
+73-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\fikiy\.gradle\caches\transforms-3\fd2b68f0807c2eebe7a2ee2bfb682c8a\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:12:13-14:85
+74                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+74-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\fikiy\.gradle\caches\transforms-3\fd2b68f0807c2eebe7a2ee2bfb682c8a\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:13:17-114
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\fikiy\.gradle\caches\transforms-3\fd2b68f0807c2eebe7a2ee2bfb682c8a\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:14:17-82
+76            <meta-data
+76-->[com.google.mlkit:vision-common:16.5.0] C:\Users\fikiy\.gradle\caches\transforms-3\8803770efc3d6e6f67c9761e660db508\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:12:13-14:85
+77                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+77-->[com.google.mlkit:vision-common:16.5.0] C:\Users\fikiy\.gradle\caches\transforms-3\8803770efc3d6e6f67c9761e660db508\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:13:17-124
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.mlkit:vision-common:16.5.0] C:\Users\fikiy\.gradle\caches\transforms-3\8803770efc3d6e6f67c9761e660db508\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:14:17-82
+79            <meta-data
+79-->[com.google.mlkit:common:17.2.0] C:\Users\fikiy\.gradle\caches\transforms-3\e5c87e164e19f9e0e1ceb7cacff90644\transformed\jetified-common-17.2.0\AndroidManifest.xml:20:13-22:85
+80                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+80-->[com.google.mlkit:common:17.2.0] C:\Users\fikiy\.gradle\caches\transforms-3\e5c87e164e19f9e0e1ceb7cacff90644\transformed\jetified-common-17.2.0\AndroidManifest.xml:21:17-120
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.mlkit:common:17.2.0] C:\Users\fikiy\.gradle\caches\transforms-3\e5c87e164e19f9e0e1ceb7cacff90644\transformed\jetified-common-17.2.0\AndroidManifest.xml:22:17-82
+82        </service>
+83
+84        <provider
+84-->[com.google.mlkit:common:17.2.0] C:\Users\fikiy\.gradle\caches\transforms-3\e5c87e164e19f9e0e1ceb7cacff90644\transformed\jetified-common-17.2.0\AndroidManifest.xml:9:9-13:38
+85            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+85-->[com.google.mlkit:common:17.2.0] C:\Users\fikiy\.gradle\caches\transforms-3\e5c87e164e19f9e0e1ceb7cacff90644\transformed\jetified-common-17.2.0\AndroidManifest.xml:10:13-78
+86            android:authorities="com.ekaghe.mlkitinitprovider"
+86-->[com.google.mlkit:common:17.2.0] C:\Users\fikiy\.gradle\caches\transforms-3\e5c87e164e19f9e0e1ceb7cacff90644\transformed\jetified-common-17.2.0\AndroidManifest.xml:11:13-69
+87            android:exported="false"
+87-->[com.google.mlkit:common:17.2.0] C:\Users\fikiy\.gradle\caches\transforms-3\e5c87e164e19f9e0e1ceb7cacff90644\transformed\jetified-common-17.2.0\AndroidManifest.xml:12:13-37
+88            android:initOrder="99" />
+88-->[com.google.mlkit:common:17.2.0] C:\Users\fikiy\.gradle\caches\transforms-3\e5c87e164e19f9e0e1ceb7cacff90644\transformed\jetified-common-17.2.0\AndroidManifest.xml:13:13-35
+89
+90        <activity
+90-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\fikiy\.gradle\caches\transforms-3\b4ff53dec33f33e420e096b0cec38129\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:23:9-26:75
+91            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+91-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\fikiy\.gradle\caches\transforms-3\b4ff53dec33f33e420e096b0cec38129\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:24:13-79
+92            android:exported="false"
+92-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\fikiy\.gradle\caches\transforms-3\b4ff53dec33f33e420e096b0cec38129\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:25:13-37
+93            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+93-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\fikiy\.gradle\caches\transforms-3\b4ff53dec33f33e420e096b0cec38129\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:26:13-72
+94
+95        <meta-data
+95-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\fikiy\.gradle\caches\transforms-3\fa39733c2d52ec32d2feb1bd5f4dbe60\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
+96            android:name="com.google.android.gms.version"
+96-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\fikiy\.gradle\caches\transforms-3\fa39733c2d52ec32d2feb1bd5f4dbe60\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:24:13-58
+97            android:value="@integer/google_play_services_version" />
+97-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\fikiy\.gradle\caches\transforms-3\fa39733c2d52ec32d2feb1bd5f4dbe60\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:25:13-66
+98
+99        <provider
+99-->[androidx.emoji2:emoji2:1.2.0] C:\Users\fikiy\.gradle\caches\transforms-3\22bedb768bf4ccb3407638a891947bb2\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+100            android:name="androidx.startup.InitializationProvider"
+100-->[androidx.emoji2:emoji2:1.2.0] C:\Users\fikiy\.gradle\caches\transforms-3\22bedb768bf4ccb3407638a891947bb2\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+101            android:authorities="com.ekaghe.androidx-startup"
+101-->[androidx.emoji2:emoji2:1.2.0] C:\Users\fikiy\.gradle\caches\transforms-3\22bedb768bf4ccb3407638a891947bb2\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+102            android:exported="false" >
+102-->[androidx.emoji2:emoji2:1.2.0] C:\Users\fikiy\.gradle\caches\transforms-3\22bedb768bf4ccb3407638a891947bb2\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+103            <meta-data
+103-->[androidx.emoji2:emoji2:1.2.0] C:\Users\fikiy\.gradle\caches\transforms-3\22bedb768bf4ccb3407638a891947bb2\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+104                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+104-->[androidx.emoji2:emoji2:1.2.0] C:\Users\fikiy\.gradle\caches\transforms-3\22bedb768bf4ccb3407638a891947bb2\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+105                android:value="androidx.startup" />
+105-->[androidx.emoji2:emoji2:1.2.0] C:\Users\fikiy\.gradle\caches\transforms-3\22bedb768bf4ccb3407638a891947bb2\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+106            <meta-data
+106-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\fikiy\.gradle\caches\transforms-3\694fc13c24cff94d973d84ef33f87202\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+107                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+107-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\fikiy\.gradle\caches\transforms-3\694fc13c24cff94d973d84ef33f87202\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+108                android:value="androidx.startup" />
+108-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\fikiy\.gradle\caches\transforms-3\694fc13c24cff94d973d84ef33f87202\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+109        </provider>
+110
+111        <service
+111-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\fikiy\.gradle\caches\transforms-3\2ebfc4ab3bcf16c181baddfb1fc07817\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+112            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+112-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\fikiy\.gradle\caches\transforms-3\2ebfc4ab3bcf16c181baddfb1fc07817\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+113            android:exported="false" >
+113-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\fikiy\.gradle\caches\transforms-3\2ebfc4ab3bcf16c181baddfb1fc07817\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+114            <meta-data
+114-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\fikiy\.gradle\caches\transforms-3\2ebfc4ab3bcf16c181baddfb1fc07817\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+115                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+115-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\fikiy\.gradle\caches\transforms-3\2ebfc4ab3bcf16c181baddfb1fc07817\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+116                android:value="cct" />
+116-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\fikiy\.gradle\caches\transforms-3\2ebfc4ab3bcf16c181baddfb1fc07817\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+117        </service>
+118        <service
+118-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\fikiy\.gradle\caches\transforms-3\dd5119c870013fe79a4e8ee5aaa6c24b\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+119            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+119-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\fikiy\.gradle\caches\transforms-3\dd5119c870013fe79a4e8ee5aaa6c24b\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+120            android:exported="false"
+120-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\fikiy\.gradle\caches\transforms-3\dd5119c870013fe79a4e8ee5aaa6c24b\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+121            android:permission="android.permission.BIND_JOB_SERVICE" >
+121-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\fikiy\.gradle\caches\transforms-3\dd5119c870013fe79a4e8ee5aaa6c24b\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+122        </service>
+123
+124        <receiver
+124-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\fikiy\.gradle\caches\transforms-3\dd5119c870013fe79a4e8ee5aaa6c24b\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+125            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+125-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\fikiy\.gradle\caches\transforms-3\dd5119c870013fe79a4e8ee5aaa6c24b\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+126            android:exported="false" />
+126-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\fikiy\.gradle\caches\transforms-3\dd5119c870013fe79a4e8ee5aaa6c24b\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+127
+128        <meta-data
+128-->[com.facebook.soloader:soloader:0.10.5] C:\Users\fikiy\.gradle\caches\transforms-3\b8c2d6bfd78929894c770318ac143989\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:12:9-14:37
+129            android:name="com.facebook.soloader.enabled"
+129-->[com.facebook.soloader:soloader:0.10.5] C:\Users\fikiy\.gradle\caches\transforms-3\b8c2d6bfd78929894c770318ac143989\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:13:13-57
+130            android:value="false" />
+130-->[com.facebook.soloader:soloader:0.10.5] C:\Users\fikiy\.gradle\caches\transforms-3\b8c2d6bfd78929894c770318ac143989\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:14:13-34
+131    </application>
+132
+133</manifest>
